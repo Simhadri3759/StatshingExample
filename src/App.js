@@ -7,7 +7,11 @@ import { useContext } from "react";
 import About from "./About";
 import { MyContextDataProvider } from "./UseContext";
 import Carrer from "./Carrer";
+<<<<<<< Updated upstream
 import MyTeam from "./MyTeam";
+=======
+import Experience from "./Experience";
+>>>>>>> Stashed changes
 function App() {
   return (
     <div>
@@ -17,7 +21,11 @@ function App() {
           <Route path="contact" element={<Contact />}></Route>
           <Route path="about" element={<About />}></Route>
           <Route path="carrer" element={<Carrer/>} ></Route>
+<<<<<<< Updated upstream
           <Route path="myTeam" element={<MyTeam/>}></Route>
+=======
+          <Route path="experiece" element={<Experience/>}></Route>
+>>>>>>> Stashed changes
         </Routes>
       </MyContextDataProvider>
     </div>

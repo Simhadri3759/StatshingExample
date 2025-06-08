@@ -7,6 +7,7 @@ import { useContext } from "react";
 import About from "./About";
 import { MyContextDataProvider } from "./UseContext";
 import Carrer from "./Carrer";
+import MyTeam from "./MyTeam";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
           <Route path="contact" element={<Contact />}></Route>
           <Route path="about" element={<About />}></Route>
           <Route path="carrer" element={<Carrer/>} ></Route>
+          <Route path="myTeam" element={<MyTeam/>}></Route>
         </Routes>
       </MyContextDataProvider>
     </div>

@@ -22,6 +22,7 @@ const Home = () => {
           <Link to="/">Home</Link>
           <Link to="about">About</Link>
           <Link to="carrer">Carrer</Link>
+          <Link to="myTeam">Myteam</Link>
         </nav>
         <button style={{ marginTop: "1rem", cursor: "pointer" }}>
           Dark/white-btn

@@ -22,11 +22,9 @@ const Home = () => {
           <Link to="/">Home</Link>
           <Link to="about">About</Link>
           <Link to="carrer">Carrer</Link>
-<<<<<<< Updated upstream
           <Link to="myTeam">Myteam</Link>
-=======
           <Link to="experiece">Experience</Link>
->>>>>>> Stashed changes
+          <Link to="customers">Customers</Link>
         </nav>
         <button style={{ marginTop: "1rem", cursor: "pointer" }}>
           Dark/white-btn

@@ -25,6 +25,7 @@ const Home = () => {
           <Link to="myTeam">Myteam</Link>
           <Link to="experiece">Experience</Link>
           <Link to="customers">Customers</Link>
+          <Link to="singup">singup</Link>
         </nav>
         <button style={{ marginTop: "1rem", cursor: "pointer" }}>
           Dark/white-btn

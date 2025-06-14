@@ -10,6 +10,7 @@ import Carrer from "./Carrer";
 import MyTeam from "./MyTeam";
 import Experience from "./Experience";
 import Customers from "./Customers";
+import SingUpPage from "./SingUpPage";
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
           <Route path="myTeam" element={<MyTeam/>}></Route>
           <Route path="experiece" element={<Experience/>}></Route>
           <Route path="customers" element={<Customers/>}></Route>
+          <Route path="singup" element={<SingUpPage/>}></Route>
         </Routes>
       </MyContextDataProvider>
     </div>

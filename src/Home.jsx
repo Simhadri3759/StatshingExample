@@ -23,6 +23,8 @@ const Home = () => {
           <Link to="about">About</Link>
           <Link to="carrer">Carrer</Link>
           <Link to="myTeam">Myteam</Link>
+          <Link to="experiece">Experience</Link>
+          <Link to="customers">Customers</Link>
         </nav>
         <button style={{ marginTop: "1rem", cursor: "pointer" }}>
           Dark/white-btn
